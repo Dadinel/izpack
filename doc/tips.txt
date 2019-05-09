@@ -1,0 +1,10 @@
+Site para efetuar o encode UTF-8 das strings que serão compiladas:
+https://www.freeformatter.com/java-dotnet-escape.html
+
+Para efetuar a build, é necessário instalar o Maven e colocar o mesmo no variável de ambiente PATH:
+https://maven.apache.org/download.cgi
+
+Para a build, é necessário a instalação do ANT, criando a variável de ambiente ANT_HOME e também adicionando na variável PATH:
+https://ant.apache.org/bindownload.cgi
+
+Obs.: Java instalado e configurado, JAVA_HOME
