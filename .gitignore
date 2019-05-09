@@ -2,3 +2,4 @@
 /_dist
 /eclipse-bin
 .metadata
+/target
