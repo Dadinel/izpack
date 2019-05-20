@@ -7,4 +7,7 @@ https://maven.apache.org/download.cgi
 Para a build, é necessário a instalação do ANT, criando a variável de ambiente ANT_HOME e também adicionando na variável PATH:
 https://ant.apache.org/bindownload.cgi
 
+Comando para gerar o .JAR (build):
+mvn clean install
+
 Obs.: Java instalado e configurado, JAVA_HOME

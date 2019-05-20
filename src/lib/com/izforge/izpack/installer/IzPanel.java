@@ -483,6 +483,16 @@ public class IzPanel extends JPanel implements AbstractUIHandler, LayoutConstant
     }
 
     /**
+     * Notify the user about something.
+     * 
+     * @param message The notification.
+     */
+    public void emitNotification(String message, String title)
+    {
+        JOptionPane.showMessageDialog(this, message, title, JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    /**
      * Warn the user about something.
      * 
      * @param message The warning message.
